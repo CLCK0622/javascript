@@ -348,9 +348,17 @@ void (async () => {
       ...(componentControls.clerk.getProps() ?? {}),
       signInUrl: '/sign-in',
       signUpUrl: '/sign-up',
+      appearance: {
+        variables: {
+          colorPrimary: '#6C47FF',
+          colorNeutral: 'black',
+          colorText: '#6C47FF', // 'var(--clerk-text-secondary, yellow)',
+          // colorTextSecondary: 'var(--clerk-text-secondary, green)',
+        },
+      },
     });
     renderCurrentRoute();
-    updateVariables();
+    // updateVariables();
     updateOtherOptions();
   } else {
     console.error(`Unknown route: "${route}".`);

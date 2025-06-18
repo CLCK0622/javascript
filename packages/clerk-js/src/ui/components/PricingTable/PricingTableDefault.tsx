@@ -168,6 +168,8 @@ function Card(props: CardProps) {
         gridTemplateRows: 'subgrid',
         gridRow: 'span 5',
         background: common.mergedColorsBackground(
+          // TODO: Possibly breaking to remove setAlpha if a transparent
+          //       color is passed in (it's ultimately set to 1)
           colors.setAlpha(t.colors.$colorBackground, 1),
           t.colors.$neutralAlpha50,
         ),

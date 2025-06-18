@@ -10,6 +10,10 @@
 
 import type { HslaColor, HslaColorString } from '@clerk/types';
 
+import { transparentize } from '@/utils/colorMix';
+
+import { isColorMixSupported } from './colorOptionToHslaScale';
+
 const abbrRegex = /^#([a-f0-9]{3,4})$/i;
 const hexRegex = /^#([a-f0-9]{6})([a-f0-9]{2})?$/i;
 const rgbaRegex =
@@ -255,6 +259,11 @@ const hslaColorToHslaString = ({ h, s, l, a }: HslaColor): HslaColorString => {
 };
 
 const parse = (str: string): ParsedResult => {
+  if (isColorMixSupported()) {
+    // @ts-expect-error - We return a string if color mix is supported, no need to parse it
+    return str;
+  }
+
   const prefix = str.substr(0, 3).toLowerCase();
   let res;
   if (prefix === 'hsl') {
@@ -323,6 +332,11 @@ const makeTransparent = (color: string | undefined, percentage = 0): string | un
   if (!color || color.toString() === '') {
     return undefined;
   }
+
+  if (isColorMixSupported()) {
+    return transparentize(color, `${100 - percentage * 100}%`);
+  }
+
   const hsla = toHslaColor(color);
   return toHslaString(changeHslaAlpha(hsla, (hsla.a ?? 1) * percentage));
 };

@@ -3,24 +3,27 @@ import type { Theme } from '@clerk/types';
 import { spaceScaleKeys } from '../foundations/sizes';
 import type { fontSizes, fontWeights } from '../foundations/typography';
 import {
-  colorOptionToHslaAlphaScale,
-  colorOptionToHslaLightnessScale,
+  colorOptionToAlphaScale,
+  colorOptionToLightnessScale,
   colors,
   fromEntries,
+  isColorMixSupported,
   removeUndefinedProps,
 } from '../utils';
 
 export const createColorScales = (theme: Theme) => {
   const variables = theme.variables || {};
 
-  const primaryScale = colorOptionToHslaLightnessScale(variables.colorPrimary, 'primary');
-  const primaryAlphaScale = colorOptionToHslaAlphaScale(primaryScale?.primary500, 'primaryAlpha');
-  const dangerScale = colorOptionToHslaLightnessScale(variables.colorDanger, 'danger');
-  const dangerAlphaScale = colorOptionToHslaAlphaScale(dangerScale?.danger500, 'dangerAlpha');
-  const successScale = colorOptionToHslaLightnessScale(variables.colorSuccess, 'success');
-  const successAlphaScale = colorOptionToHslaAlphaScale(successScale?.success500, 'successAlpha');
-  const warningScale = colorOptionToHslaLightnessScale(variables.colorWarning, 'warning');
-  const warningAlphaScale = colorOptionToHslaAlphaScale(warningScale?.warning500, 'warningAlpha');
+  const primaryScale = colorOptionToLightnessScale(variables.colorPrimary, 'primary');
+
+  const primaryAlphaScale = colorOptionToAlphaScale(primaryScale?.primary500, 'primaryAlpha');
+  const dangerScale = colorOptionToLightnessScale(variables.colorDanger, 'danger');
+  const dangerAlphaScale = colorOptionToAlphaScale(dangerScale?.danger500, 'dangerAlpha');
+  const successScale = colorOptionToLightnessScale(variables.colorSuccess, 'success');
+  const successAlphaScale = colorOptionToAlphaScale(successScale?.success500, 'successAlpha');
+  const warningScale = colorOptionToLightnessScale(variables.colorWarning, 'warning');
+  const warningAlphaScale = colorOptionToAlphaScale(warningScale?.warning500, 'warningAlpha');
+  const neutralAlphaScale = colorOptionToAlphaScale(variables.colorNeutral, 'neutralAlpha');
 
   return removeUndefinedProps({
     ...primaryScale,
@@ -31,7 +34,7 @@ export const createColorScales = (theme: Theme) => {
     ...successAlphaScale,
     ...warningScale,
     ...warningAlphaScale,
-    ...colorOptionToHslaAlphaScale(variables.colorNeutral, 'neutralAlpha'),
+    ...neutralAlphaScale,
     primaryHover: colors.adjustForLightness(primaryScale?.primary500),
     colorTextOnPrimaryBackground: toHSLA(variables.colorTextOnPrimaryBackground),
     colorText: toHSLA(variables.colorText),
@@ -44,7 +47,15 @@ export const createColorScales = (theme: Theme) => {
 };
 
 export const toHSLA = (str: string | undefined) => {
-  return str ? colors.toHslaString(str) : undefined;
+  if (!str) {
+    return undefined;
+  }
+
+  if (isColorMixSupported()) {
+    return str;
+  }
+
+  return colors.toHslaString(str);
 };
 
 export const createRadiiUnits = (theme: Theme) => {
