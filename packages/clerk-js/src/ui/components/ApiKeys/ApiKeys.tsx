@@ -59,7 +59,7 @@ export const APIKeysPage = ({ subject, perPage, revokeModalRoot }: APIKeysPagePr
     startingRow,
     endingRow,
     cacheKey,
-  } = useApiKeys({ subject, pageSize: perPage, enabled: isOrg ? canReadAPIKeys : true });
+  } = useApiKeys({ subject, perPage, enabled: isOrg ? canReadAPIKeys : true });
   const card = useCardState();
   const { trigger: createApiKey, isMutating } = useSWRMutation(cacheKey, (_, { arg }: { arg: CreateAPIKeyParams }) =>
     clerk.apiKeys.create(arg),
@@ -119,7 +119,8 @@ export const APIKeysPage = ({ subject, perPage, revokeModalRoot }: APIKeysPagePr
               value={search}
               onChange={e => {
                 setSearch(e.target.value);
-                setPage(1);
+                // Don't reset page for client-side filtering
+                // setPage(1);
               }}
               elementDescriptor={descriptors.apiKeysSearchInput}
             />
