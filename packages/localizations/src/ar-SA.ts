@@ -62,6 +62,7 @@ export const arSA: LocalizationResource = {
   badge__requiresAction: 'الإجراء المطلوب',
   badge__startsAt: undefined,
   badge__thisDevice: 'هذا الجهاز',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'لم يتم التحقق منه',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'جهاز المستخدم',
@@ -133,6 +134,7 @@ export const arSA: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -786,6 +788,26 @@ export const arSA: LocalizationResource = {
   },
   socialButtonsBlockButton: 'للمتابعة مع {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: undefined,
     captcha_invalid:
@@ -804,6 +826,9 @@ export const arSA: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'الأسم الأخير يجب الا يتجاوز 256 حرف',
     form_param_max_length_exceeded__name: 'الأسم يجب الا يتجاوز 256 حرف',
     form_param_nil: undefined,
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: undefined,
     form_password_length_too_short: undefined,

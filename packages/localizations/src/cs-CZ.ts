@@ -63,6 +63,7 @@ export const csCZ: LocalizationResource = {
   badge__requiresAction: 'Vyžaduje akci',
   badge__startsAt: "Začíná {{ date | shortDate('cs-CZ') }}",
   badge__thisDevice: 'Toto zařízení',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Nepotvrzené',
   badge__upcomingPlan: 'Nadcházející',
   badge__userDevice: 'Zařízení uživatele',
@@ -137,6 +138,7 @@ export const csCZ: LocalizationResource = {
     },
     reSubscribe: 'Znovu se přihlásit',
     seeAllFeatures: 'Zobrazit všechny funkce',
+    startFreeTrial: undefined,
     subscribe: 'Přihlásit se',
     subscriptionDetails: {
       beginsOn: 'Začíná dne',
@@ -799,6 +801,26 @@ export const csCZ: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Pokračovat s {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} je již členem organizace.',
     captcha_invalid: undefined,
@@ -816,6 +838,9 @@ export const csCZ: LocalizationResource = {
     form_param_max_length_exceeded__last_name: undefined,
     form_param_max_length_exceeded__name: undefined,
     form_param_nil: undefined,
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: undefined,
     form_password_length_too_short: 'Vaše heslo je příliš krátké. Musí mít alespoň 8 znaků.',

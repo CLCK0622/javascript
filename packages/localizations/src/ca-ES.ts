@@ -62,6 +62,7 @@ export const caES: LocalizationResource = {
   badge__requiresAction: 'Requereix acció',
   badge__startsAt: undefined,
   badge__thisDevice: 'Aquest dispositiu',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'No verificat',
   badge__upcomingPlan: undefined,
   badge__userDevice: "Dispositiu de l'usuari",
@@ -133,6 +134,7 @@ export const caES: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -787,6 +789,26 @@ export const caES: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Continua amb {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: undefined,
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: undefined,
     captcha_invalid:
@@ -805,6 +827,9 @@ export const caES: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Els cognoms no han de superar els 256 caràcters.',
     form_param_max_length_exceeded__name: 'El nom no ha de superar els 256 caràcters.',
     form_param_nil: 'El valor del camp no pot ser nul. Si us plau, completa aquest camp.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: 'La contrasenya introduïda és incorrecta.',
     form_password_length_too_short: 'La teva contrasenya ha de tenir almenys 8 caràcters.',

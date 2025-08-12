@@ -1,5 +1,55 @@
 # Change Log
 
+## 3.19.0
+
+### Minor Changes
+
+- Update TelemetryCollector to accept a `perEventSampling` property for controling per-event sampling rates. ([#6514](https://github.com/clerk/javascript/pull/6514)) by [@panteliselef](https://github.com/panteliselef)
+
+### Patch Changes
+
+- Updated dependencies [[`b72a3dd`](https://github.com/clerk/javascript/commit/b72a3dda2467720e5dc8cab3e7e6a110f3beb79b), [`d93b0ed`](https://github.com/clerk/javascript/commit/d93b0edf4adc57d48a26cb08444192887ccec659), [`6459f7d`](https://github.com/clerk/javascript/commit/6459f7dabe5f163f48ed73106bb901d8187da3e2), [`9084759`](https://github.com/clerk/javascript/commit/90847593300be605e1ee1c06dac147ce68b25dc7)]:
+  - @clerk/types@4.75.0
+
+## 3.18.1
+
+### Patch Changes
+
+- Fix a potential memory leak in `TelemetryCollector` ([#6485](https://github.com/clerk/javascript/pull/6485)) by [@brkalow](https://github.com/brkalow)
+
+- Updated dependencies [[`1ad16da`](https://github.com/clerk/javascript/commit/1ad16daa49795a861ae277001831230580b6b9f4), [`4edef81`](https://github.com/clerk/javascript/commit/4edef81dd423a0471e3f579dd6b36094aa8546aa), [`696f8e1`](https://github.com/clerk/javascript/commit/696f8e11a3e5391e6b5a97d98e929b8973575b9a), [`f318d22`](https://github.com/clerk/javascript/commit/f318d22cf83caaef272bcf532561a03ca72575e7)]:
+  - @clerk/types@4.74.0
+
+## 3.18.0
+
+### Minor Changes
+
+- [Billing Beta] Stricter return type of `useCheckout` to improve inference of other properties. ([#6473](https://github.com/clerk/javascript/pull/6473)) by [@panteliselef](https://github.com/panteliselef)
+
+### Patch Changes
+
+- Improve `useCheckout` error messages on mount. ([#6475](https://github.com/clerk/javascript/pull/6475)) by [@panteliselef](https://github.com/panteliselef)
+
+- Updated dependencies [[`f93965f`](https://github.com/clerk/javascript/commit/f93965f64c81030f9fcf9d1cc4e4984d30cd12ec), [`7b6dcee`](https://github.com/clerk/javascript/commit/7b6dceea5bfd7f1cc1bf24126aa715307e24ae7f)]:
+  - @clerk/types@4.73.0
+
+## 3.17.0
+
+### Minor Changes
+
+- [Billing Beta] Remove `statement_id` from the checkout resource. ([#6437](https://github.com/clerk/javascript/pull/6437)) by [@panteliselef](https://github.com/panteliselef)
+
+### Patch Changes
+
+- Fixes a bug which cause initialization of a payment method to never fire. ([#6436](https://github.com/clerk/javascript/pull/6436)) by [@panteliselef](https://github.com/panteliselef)
+
+- Fix TelemetryCollector logic for clerk-js in browser to properly populate sdkMetadata for telemetry events. ([#6448](https://github.com/clerk/javascript/pull/6448)) by [@panteliselef](https://github.com/panteliselef)
+
+- Remove `treatPendingAsSignedOut` from `useSession` and always return pending session ([#6432](https://github.com/clerk/javascript/pull/6432)) by [@LauraBeatris](https://github.com/LauraBeatris)
+
+- Updated dependencies [[`22c35ef`](https://github.com/clerk/javascript/commit/22c35efb59226df2efaa2891fa4775c13312f4c6), [`e8d816a`](https://github.com/clerk/javascript/commit/e8d816a3350e862c3e9e1d4f8c96c047a0a016a2), [`aa9f185`](https://github.com/clerk/javascript/commit/aa9f185e21b58f8a6e03ea44ce29ee09ad2477d9), [`af0e123`](https://github.com/clerk/javascript/commit/af0e12393c9412281626e20dafb1b3a15558f6d9), [`3d1d871`](https://github.com/clerk/javascript/commit/3d1d8711405646cf3c2aabe99e08337a1028703a)]:
+  - @clerk/types@4.72.0
+
 ## 3.16.0
 
 ### Minor Changes

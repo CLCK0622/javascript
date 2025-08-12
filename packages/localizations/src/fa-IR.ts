@@ -62,6 +62,7 @@ export const faIR: LocalizationResource = {
   badge__requiresAction: 'نیاز به اقدام دارد',
   badge__startsAt: "شروع می‌شود {{ date | shortDate('en-US') }}",
   badge__thisDevice: 'این دستگاه',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'تایید نشده',
   badge__upcomingPlan: 'به زودی',
   badge__userDevice: 'دستگاه کاربر',
@@ -137,6 +138,7 @@ export const faIR: LocalizationResource = {
     },
     reSubscribe: 'اشتراک مجدد',
     seeAllFeatures: 'مشاهده همه ویژگی‌ها',
+    startFreeTrial: undefined,
     subscribe: 'مشترک شوید',
     subscriptionDetails: {
       beginsOn: undefined,
@@ -798,6 +800,26 @@ export const faIR: LocalizationResource = {
   },
   socialButtonsBlockButton: 'ادامه با {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} از قبل عضو سازمان است.',
     captcha_invalid: undefined,
@@ -815,6 +837,9 @@ export const faIR: LocalizationResource = {
     form_param_max_length_exceeded__last_name: undefined,
     form_param_max_length_exceeded__name: undefined,
     form_param_nil: undefined,
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: undefined,
     form_password_length_too_short: 'رمز عبور شما خیلی کوتاه است. باید حداقل ۸ کاراکتر داشته باشد.',

@@ -62,6 +62,7 @@ export const nbNO: LocalizationResource = {
   badge__requiresAction: 'Krever handling',
   badge__startsAt: undefined,
   badge__thisDevice: 'Denne enheten',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Ikke verifisert',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'Brukerens enhet',
@@ -133,6 +134,7 @@ export const nbNO: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -787,6 +789,26 @@ export const nbNO: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Fortsett med {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: undefined,
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: undefined,
     captcha_invalid:
@@ -805,6 +827,9 @@ export const nbNO: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Etternavn kan ikke være lengre enn 256 bokstaver.',
     form_param_max_length_exceeded__name: 'Navn kan ikke være lengre enn 256 bokstaver.',
     form_param_nil: undefined,
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: undefined,
     form_password_length_too_short: undefined,

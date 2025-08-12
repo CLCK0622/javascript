@@ -62,6 +62,7 @@ export const teIN: LocalizationResource = {
   badge__requiresAction: 'చర్య అవసరం',
   badge__startsAt: undefined,
   badge__thisDevice: 'ఈ పరికరం',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'ధృవీకరించబడలేదు',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'వినియోగదారు పరికరం',
@@ -133,6 +134,7 @@ export const teIN: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -795,6 +797,26 @@ export const teIN: LocalizationResource = {
   },
   socialButtonsBlockButton: '{{provider|titleize}}తో కొనసాగించండి',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} ఇప్పటికే సంస్థ సభ్యుడు.',
     captcha_invalid:
@@ -813,6 +835,9 @@ export const teIN: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'చివరి పేరు 256 అక్షరాలను మించకూడదు.',
     form_param_max_length_exceeded__name: 'పేరు 256 అక్షరాలను మించకూడదు.',
     form_param_nil: 'ఈ ఫీల్డ్ అవసరం మరియు ఖాళీగా ఉండకూడదు.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'నమోదు చేసిన విలువ చెల్లనిది. దయచేసి దిద్దుబాటు చేయండి.',
     form_password_incorrect: 'మీరు నమోదు చేసిన పాస్‌వర్డ్ తప్పు. దయచేసి మళ్ళీ ప్రయత్నించండి.',
     form_password_length_too_short: 'మీ పాస్‌వర్డ్ చాలా చిన్నది. ఇది కనీసం 8 అక్షరాల పొడవు ఉండాలి.',

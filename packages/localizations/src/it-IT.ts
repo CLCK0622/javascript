@@ -63,6 +63,7 @@ export const itIT: LocalizationResource = {
   badge__requiresAction: 'Richiede azione',
   badge__startsAt: "Inizia {{ date | shortDate('it-IT') }}",
   badge__thisDevice: 'Questo dispositivo',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Non verificato',
   badge__upcomingPlan: 'In arrivo',
   badge__userDevice: 'Dispositivo utente',
@@ -139,6 +140,7 @@ export const itIT: LocalizationResource = {
     },
     reSubscribe: 'Riabbonati',
     seeAllFeatures: 'Vedi tutte le funzionalità',
+    startFreeTrial: undefined,
     subscribe: 'Abbonati',
     subscriptionDetails: {
       beginsOn: 'Inizia il',
@@ -796,6 +798,26 @@ export const itIT: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Continua con {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: undefined,
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: 'Sei già un membro di questa organizzazione.',
     captcha_invalid:
@@ -814,6 +836,9 @@ export const itIT: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Il cognome non deve superare i 256 caratteri.',
     form_param_max_length_exceeded__name: 'Il nome non deve superare i 256 caratteri.',
     form_param_nil: 'Questo campo è obbligatorio.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'Valore non valido.',
     form_password_incorrect: 'Password errata.',
     form_password_length_too_short: 'La password deve avere almeno 8 caratteri.',

@@ -51,6 +51,7 @@ export const enUS: LocalizationResource = {
   badge__requiresAction: 'Requires action',
   badge__startsAt: "Starts {{ date | shortDate('en-US') }}",
   badge__thisDevice: 'This device',
+  badge__trialEndsAt: "Trial ends {{ date | shortDate('en-US') }}",
   badge__unverified: 'Unverified',
   badge__upcomingPlan: 'Upcoming',
   badge__userDevice: 'User device',
@@ -126,6 +127,7 @@ export const enUS: LocalizationResource = {
     },
     reSubscribe: 'Resubscribe',
     seeAllFeatures: 'See all features',
+    startFreeTrial: 'Start {{days}}-day free trial',
     subscribe: 'Subscribe',
     subscriptionDetails: {
       beginsOn: 'Begins on',
@@ -785,6 +787,26 @@ export const enUS: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Continue with {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: 'Create new organization',
+      action__invitationAccept: 'Join',
+      action__suggestionsAccept: 'Request to join',
+      subtitle: 'Join an existing organization or create a new one',
+      suggestionsAcceptedLabel: 'Pending approval',
+      title: 'Choose an organization',
+    },
+    createOrganization: {
+      formButtonReset: 'Cancel',
+      formButtonSubmit: 'Create new organization',
+      subtitle: 'Tell us a bit about your organization',
+      title: 'Setup your account',
+    },
+    signOut: {
+      actionLink: 'Sign out',
+      actionText: 'Signed in as {{identifier}}',
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} is already a member of the organization.',
     captcha_invalid: undefined,
@@ -802,6 +824,9 @@ export const enUS: LocalizationResource = {
     form_param_max_length_exceeded__last_name: undefined,
     form_param_max_length_exceeded__name: undefined,
     form_param_nil: undefined,
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: undefined,
     form_password_length_too_short: 'Your password is too short. It must be at least 8 characters long.',

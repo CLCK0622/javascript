@@ -62,6 +62,7 @@ export const esUY: LocalizationResource = {
   badge__requiresAction: 'Requiere acción',
   badge__startsAt: undefined,
   badge__thisDevice: 'Este dispositivo',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'No verificado',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'Dispositivo del usuario',
@@ -133,6 +134,7 @@ export const esUY: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -795,6 +797,26 @@ export const esUY: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Continuar con {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} ya es miembro de la organización.',
     captcha_invalid:
@@ -813,6 +835,9 @@ export const esUY: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'El apellido no debe exceder los 256 caracteres.',
     form_param_max_length_exceeded__name: 'El nombre no debe exceder los 256 caracteres.',
     form_param_nil: 'Este campo es obligatorio y no puede estar vacío.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'El valor ingresado es inválido. Por favor, corregilo.',
     form_password_incorrect: 'La contraseña ingresada es incorrecta. Por favor, intentá de nuevo.',
     form_password_length_too_short: 'Tu contraseña es demasiado corta. Debe tener al menos 8 caracteres.',

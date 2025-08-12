@@ -62,6 +62,7 @@ export const trTR: LocalizationResource = {
   badge__requiresAction: 'Eylem gerekli',
   badge__startsAt: undefined,
   badge__thisDevice: 'Bu cihaz',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Doğrulanmamış',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'Kullanıcı cihazı',
@@ -133,6 +134,7 @@ export const trTR: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -789,6 +791,26 @@ export const trTR: LocalizationResource = {
   },
   socialButtonsBlockButton: '{{provider|titleize}} ile giriş yapın',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: 'Bu organizasyonda zaten üyesiniz.',
     captcha_invalid:
@@ -807,6 +829,9 @@ export const trTR: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Soyad 256 karakteri aşmamalıdır.',
     form_param_max_length_exceeded__name: 'İsim 256 karakteri aşmamalıdır.',
     form_param_nil: 'Parametre boş olamaz.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'Parametre değeri geçersiz.',
     form_password_incorrect: 'Şifre yanlış.',
     form_password_length_too_short: 'Şifre çok kısa.',

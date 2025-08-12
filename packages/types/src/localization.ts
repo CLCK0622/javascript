@@ -149,6 +149,7 @@ export type __internal_LocalizationResource = {
   badge__pastDuePlan: LocalizationValue;
   badge__startsAt: LocalizationValue<'date'>;
   badge__pastDueAt: LocalizationValue<'date'>;
+  badge__trialEndsAt: LocalizationValue<'date'>;
   badge__endsAt: LocalizationValue;
   badge__expired: LocalizationValue;
   badge__canceledEndsAt: LocalizationValue<'date'>;
@@ -174,6 +175,7 @@ export type __internal_LocalizationResource = {
     keepSubscription: LocalizationValue;
     reSubscribe: LocalizationValue;
     subscribe: LocalizationValue;
+    startFreeTrial: LocalizationValue<'days'>;
     switchPlan: LocalizationValue;
     switchToMonthly: LocalizationValue;
     switchToAnnual: LocalizationValue;
@@ -1202,6 +1204,28 @@ export type __internal_LocalizationResource = {
     formFieldCaption__expiration__never: LocalizationValue;
     formFieldCaption__expiration__expiresOn: LocalizationValue<'date'>;
   };
+  taskChooseOrganization: {
+    title: LocalizationValue;
+    subtitle: LocalizationValue;
+    signOut: {
+      actionText: LocalizationValue<'identifier'>;
+      actionLink: LocalizationValue;
+    };
+    createOrganization: {
+      title: LocalizationValue;
+      subtitle: LocalizationValue;
+      formButtonSubmit: LocalizationValue;
+      formButtonReset: LocalizationValue;
+    };
+    chooseOrganization: {
+      title: LocalizationValue;
+      subtitle: LocalizationValue;
+      suggestionsAcceptedLabel: LocalizationValue;
+      action__suggestionsAccept: LocalizationValue;
+      action__createOrganization: LocalizationValue;
+      action__invitationAccept: LocalizationValue;
+    };
+  };
 };
 
 type WithParamName<T> = T &
@@ -1226,6 +1250,9 @@ type UnstableErrors = WithParamName<{
   form_username_invalid_character: LocalizationValue;
   form_param_format_invalid: LocalizationValue;
   form_param_format_invalid__email_address: LocalizationValue;
+  form_param_type_invalid: LocalizationValue;
+  form_param_type_invalid__phone_number: LocalizationValue;
+  form_param_type_invalid__email_address: LocalizationValue;
   form_password_length_too_short: LocalizationValue;
   form_param_nil: LocalizationValue;
   form_code_incorrect: LocalizationValue;

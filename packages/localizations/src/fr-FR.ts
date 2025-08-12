@@ -62,6 +62,7 @@ export const frFR: LocalizationResource = {
   badge__requiresAction: 'Nécessite une action',
   badge__startsAt: "Débute le {{ date | shortDate('fr-FR') }}",
   badge__thisDevice: 'Cet appareil',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Non vérifié',
   badge__upcomingPlan: 'À venir',
   badge__userDevice: 'Appareil utilisateur',
@@ -135,6 +136,7 @@ export const frFR: LocalizationResource = {
     },
     reSubscribe: 'Se réabonner',
     seeAllFeatures: 'Voir toutes les fonctionnalités',
+    startFreeTrial: undefined,
     subscribe: "S'abonner",
     subscriptionDetails: {
       beginsOn: undefined,
@@ -798,6 +800,26 @@ export const frFR: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Continuer avec {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: undefined,
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: 'Vous êtes déjà membre de cette organisation.',
     captcha_invalid:
@@ -816,6 +838,9 @@ export const frFR: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Le nom ne doit pas dépasser 256 caractères.',
     form_param_max_length_exceeded__name: 'Le nom ne doit pas dépasser 256 caractères.',
     form_param_nil: 'Ce champ est requis.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'La valeur fournie est invalide.',
     form_password_incorrect: 'Mot de passe incorrect',
     form_password_length_too_short: 'Votre mot de passe est trop court.',

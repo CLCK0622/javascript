@@ -62,6 +62,7 @@ export const plPL: LocalizationResource = {
   badge__requiresAction: 'Wymaga działania',
   badge__startsAt: undefined,
   badge__thisDevice: 'To urządzenie',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Niezweryfikowany',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'Urządzenie użytkownika',
@@ -133,6 +134,7 @@ export const plPL: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -793,6 +795,26 @@ export const plPL: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Kontynuuj z {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} jest już członkiem organizacji.',
     captcha_invalid:
@@ -811,6 +833,9 @@ export const plPL: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Nazwisko nie powinno przekraczać 256 znaków.',
     form_param_max_length_exceeded__name: 'Nazwa nie powinna przekraczać 256 znaków.',
     form_param_nil: 'To pole jest wymagane i nie może być puste.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'Wprowadzona wartość jest nieprawidłowa. Popraw ją.',
     form_password_incorrect: 'Wprowadzone hasło jest nieprawidłowe. Spróbuj ponownie.',
     form_password_length_too_short: 'Twoje hasło jest zbyt krótkie. Musi mieć co najmniej 8 znaków.',

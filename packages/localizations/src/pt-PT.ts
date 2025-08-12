@@ -62,6 +62,7 @@ export const ptPT: LocalizationResource = {
   badge__requiresAction: 'Requer ação',
   badge__startsAt: undefined,
   badge__thisDevice: 'Este dispositivo',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Não verificado',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'Dispositivo do utilizador',
@@ -133,6 +134,7 @@ export const ptPT: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -786,6 +788,26 @@ export const ptPT: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Continuar com {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: undefined,
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: 'Já é membro nesta organização.',
     captcha_invalid:
@@ -804,6 +826,9 @@ export const ptPT: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'O apelido não deve exceder 256 caracteres.',
     form_param_max_length_exceeded__name: 'O nome não deve exceder 256 caracteres.',
     form_param_nil: 'Parâmetro não pode ser nulo.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'Valor de parâmetro inválido.',
     form_password_incorrect: 'Palavra-passe incorreta.',
     form_password_length_too_short: 'A palavra-passe é muito curta.',

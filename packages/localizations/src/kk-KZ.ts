@@ -62,6 +62,7 @@ export const kkKZ: LocalizationResource = {
   badge__requiresAction: 'Әрекет қажет',
   badge__startsAt: "{{ date | shortDate('kk-KZ') }} күні басталады",
   badge__thisDevice: 'Осы құрылғы',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Расталмаған',
   badge__upcomingPlan: 'Алдағы жоспар',
   badge__userDevice: 'Пайдаланушы құрылғысы',
@@ -133,6 +134,7 @@ export const kkKZ: LocalizationResource = {
     },
     reSubscribe: 'Қайта жазылу',
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -780,6 +782,26 @@ export const kkKZ: LocalizationResource = {
   },
   socialButtonsBlockButton: '{{provider|titleize}} арқылы жалғастыру',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} ұйымға қазірдің өзінде қосылған.',
     captcha_invalid: 'Қауіпсіздік тексерілуі сәтсіз аяқталды. Браузерді өзгерту немесе кеңейтулерді өшіруге тырысыңыз.',
@@ -796,6 +818,9 @@ export const kkKZ: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Тегі 256 таңбадан аспауы керек.',
     form_param_max_length_exceeded__name: 'Атауы 256 таңбадан аспауы керек.',
     form_param_nil: 'Бұл өріс міндетті.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'Енгізілген мән жарамсыз.',
     form_password_incorrect: 'Құпия сөз қате.',
     form_password_length_too_short: 'Құпия сөз тым қысқа. Кемінде 8 таңба болуы керек.',

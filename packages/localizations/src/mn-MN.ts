@@ -62,6 +62,7 @@ export const mnMN: LocalizationResource = {
   badge__requiresAction: 'Үйлдэл шаардлагтай',
   badge__startsAt: undefined,
   badge__thisDevice: 'Энэ төхөөрөмж',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Баталгаажаагүй',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'Хэрэглэгчийн төхөөрөмж',
@@ -133,6 +134,7 @@ export const mnMN: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -788,6 +790,26 @@ export const mnMN: LocalizationResource = {
   },
   socialButtonsBlockButton: '{{provider|titleize}}-р үргэлжлүүлэх',
   socialButtonsBlockButtonManyInView: undefined,
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: undefined,
     captcha_invalid:
@@ -806,6 +828,9 @@ export const mnMN: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Овог 256 тэмдэгтээс хэтрэхгүй байх ёстой.',
     form_param_max_length_exceeded__name: 'Нэр 256 тэмдэгтээс хэтрэхгүй байх ёстой.',
     form_param_nil: 'Параметр байхгүй байна.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: 'Нууц үг буруу байна.',
     form_password_length_too_short: 'Нууц үгийн урт хэт богино байна.',

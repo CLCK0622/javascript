@@ -62,6 +62,7 @@ export const ukUA: LocalizationResource = {
   badge__requiresAction: 'Потребує дії',
   badge__startsAt: undefined,
   badge__thisDevice: 'Цей пристрій',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Неперевірений',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'Пристрій користувача',
@@ -133,6 +134,7 @@ export const ukUA: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -785,6 +787,26 @@ export const ukUA: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Продовжити за допомогою {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: undefined,
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: undefined,
     captcha_invalid:
@@ -803,6 +825,9 @@ export const ukUA: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Last name should not exceed 256 characters.',
     form_param_max_length_exceeded__name: 'Name should not exceed 256 characters.',
     form_param_nil: undefined,
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: undefined,
     form_password_length_too_short: undefined,

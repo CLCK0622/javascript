@@ -62,6 +62,7 @@ export const bnIN: LocalizationResource = {
   badge__requiresAction: 'কর্ম প্রয়োজন',
   badge__startsAt: undefined,
   badge__thisDevice: 'এই ডিভাইস',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'অযাচাই',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'ব্যবহারকারীর ডিভাইস',
@@ -133,6 +134,7 @@ export const bnIN: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -793,6 +795,26 @@ export const bnIN: LocalizationResource = {
   },
   socialButtonsBlockButton: '{{provider|titleize}} দিয়ে চালিয়ে যান',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} ইতিমধ্যে সংগঠনের একজন সদস্য।',
     captcha_invalid:
@@ -812,6 +834,9 @@ export const bnIN: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'নামের শেষ অংশ ২৫৬ অক্ষরের বেশি হওয়া উচিত নয়।',
     form_param_max_length_exceeded__name: 'নাম ২৫৬ অক্ষরের বেশি হওয়া উচিত নয়।',
     form_param_nil: 'এই ক্ষেত্রটি প্রয়োজনীয় এবং খালি রাখা যাবে না।',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'লেখা মানটি অবৈধ। দয়া করে এটি সংশোধন করুন।',
     form_password_incorrect: 'আপনি যে পাসওয়ার্ড লিখেছেন তা ভুল। দয়া করে আবার চেষ্টা করুন।',
     form_password_length_too_short: 'আপনার পাসওয়ার্ড খুব ছোট। এটি কমপক্ষে ৮ অক্ষর দীর্ঘ হতে হবে।',

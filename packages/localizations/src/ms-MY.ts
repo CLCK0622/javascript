@@ -62,6 +62,7 @@ export const msMY: LocalizationResource = {
   badge__requiresAction: 'Memerlukan tindakan',
   badge__startsAt: undefined,
   badge__thisDevice: 'Peranti ini',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Belum disahkan',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'Peranti pengguna',
@@ -133,6 +134,7 @@ export const msMY: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -796,6 +798,26 @@ export const msMY: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Teruskan dengan {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} sudah menjadi ahli organisasi.',
     captcha_invalid:
@@ -815,6 +837,9 @@ export const msMY: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Nama terakhir tidak boleh melebihi 256 aksara.',
     form_param_max_length_exceeded__name: 'Nama tidak boleh melebihi 256 aksara.',
     form_param_nil: 'Medan ini diperlukan dan tidak boleh kosong.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'Nilai yang dimasukkan tidak sah. Sila betulkannya.',
     form_password_incorrect: 'Kata laluan yang anda masukkan tidak betul. Sila cuba lagi.',
     form_password_length_too_short: 'Kata laluan anda terlalu pendek. Ia mesti sekurang-kurangnya 8 aksara panjang.',

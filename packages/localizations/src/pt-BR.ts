@@ -62,6 +62,7 @@ export const ptBR: LocalizationResource = {
   badge__requiresAction: 'Requer ação',
   badge__startsAt: "Inicia {{ date | shortDate('pt-BR') }}",
   badge__thisDevice: 'Este dispositivo',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Não verificado',
   badge__upcomingPlan: 'Próximo plano',
   badge__userDevice: 'Dispositivo do usuário',
@@ -137,6 +138,7 @@ export const ptBR: LocalizationResource = {
     },
     reSubscribe: 'Assinar novamente',
     seeAllFeatures: 'Ver todos os recursos',
+    startFreeTrial: undefined,
     subscribe: 'Assinar',
     subscriptionDetails: {
       beginsOn: undefined,
@@ -798,6 +800,26 @@ export const ptBR: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Continuar com {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: undefined,
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} já é membro da organização.',
     captcha_invalid:
@@ -816,6 +838,9 @@ export const ptBR: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'O sobrenome não deve exceder 256 caracteres.',
     form_param_max_length_exceeded__name: 'O nome não deve exceder 256 caracteres.',
     form_param_nil: undefined,
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: 'Senha incorreta.',
     form_password_length_too_short: 'Sua senha é muito curta. Por favor, tente novamente.',

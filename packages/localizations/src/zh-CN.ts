@@ -62,6 +62,7 @@ export const zhCN: LocalizationResource = {
   badge__requiresAction: '需要操作',
   badge__startsAt: undefined,
   badge__thisDevice: '此设备',
+  badge__trialEndsAt: undefined,
   badge__unverified: '未验证',
   badge__upcomingPlan: undefined,
   badge__userDevice: '用户设备',
@@ -133,6 +134,7 @@ export const zhCN: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -776,6 +778,26 @@ export const zhCN: LocalizationResource = {
   },
   socialButtonsBlockButton: '使用 {{provider|titleize}} 登录',
   socialButtonsBlockButtonManyInView: undefined,
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: undefined,
     captcha_invalid: '由于安全验证失败，注册未成功。请刷新页面重试或联系支持获取更多帮助。',
@@ -792,6 +814,9 @@ export const zhCN: LocalizationResource = {
     form_param_max_length_exceeded__last_name: '姓氏长度不得超过256个字符。',
     form_param_max_length_exceeded__name: '姓名长度不得超过256个字符。',
     form_param_nil: undefined,
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: undefined,
     form_password_length_too_short: undefined,

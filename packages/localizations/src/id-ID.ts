@@ -62,6 +62,7 @@ export const idID: LocalizationResource = {
   badge__requiresAction: 'Memerlukan tindakan',
   badge__startsAt: undefined,
   badge__thisDevice: 'Perangkat ini',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Belum diverifikasi',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'Perangkat pengguna',
@@ -133,6 +134,7 @@ export const idID: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -794,6 +796,26 @@ export const idID: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Lanjutkan dengan {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: '{{provider|titleize}}',
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: '{{email}} sudah menjadi anggota organisasi.',
     captcha_invalid:
@@ -812,6 +834,9 @@ export const idID: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Nama belakang tidak boleh lebih dari 256 karakter.',
     form_param_max_length_exceeded__name: 'Nama tidak boleh lebih dari 256 karakter.',
     form_param_nil: undefined,
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: undefined,
     form_password_incorrect: undefined,
     form_password_length_too_short: undefined,

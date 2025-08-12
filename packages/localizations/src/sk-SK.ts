@@ -62,6 +62,7 @@ export const skSK: LocalizationResource = {
   badge__requiresAction: 'Vyžaduje akciu',
   badge__startsAt: undefined,
   badge__thisDevice: 'Toto zariadenie',
+  badge__trialEndsAt: undefined,
   badge__unverified: 'Nepotvrdené',
   badge__upcomingPlan: undefined,
   badge__userDevice: 'Zariadenie používateľa',
@@ -133,6 +134,7 @@ export const skSK: LocalizationResource = {
     },
     reSubscribe: undefined,
     seeAllFeatures: undefined,
+    startFreeTrial: undefined,
     subscribe: undefined,
     subscriptionDetails: {
       beginsOn: undefined,
@@ -793,6 +795,26 @@ export const skSK: LocalizationResource = {
   },
   socialButtonsBlockButton: 'Pokračovať s {{provider|titleize}}',
   socialButtonsBlockButtonManyInView: undefined,
+  taskChooseOrganization: {
+    chooseOrganization: {
+      action__createOrganization: undefined,
+      action__invitationAccept: undefined,
+      action__suggestionsAccept: undefined,
+      subtitle: undefined,
+      suggestionsAcceptedLabel: undefined,
+      title: undefined,
+    },
+    createOrganization: {
+      formButtonReset: undefined,
+      formButtonSubmit: undefined,
+      subtitle: undefined,
+      title: undefined,
+    },
+    signOut: {
+      actionLink: undefined,
+      actionText: undefined,
+    },
+  },
   unstable__errors: {
     already_a_member_in_organization: undefined,
     captcha_invalid:
@@ -811,6 +833,9 @@ export const skSK: LocalizationResource = {
     form_param_max_length_exceeded__last_name: 'Priezvisko nesmie byť dlhšie ako 256 znakov.',
     form_param_max_length_exceeded__name: 'Meno nesmie byť dlhšie ako 256 znakov.',
     form_param_nil: 'Pole je povinné a nesmie byť prázdne.',
+    form_param_type_invalid: undefined,
+    form_param_type_invalid__email_address: undefined,
+    form_param_type_invalid__phone_number: undefined,
     form_param_value_invalid: 'Hodnota je neplatná. Skontrolujte a opravte.',
     form_password_incorrect: 'Heslo je nesprávne. Skontrolujte a skúste to znova.',
     form_password_length_too_short: 'Heslo musí mať aspoň 8 znakov.',
