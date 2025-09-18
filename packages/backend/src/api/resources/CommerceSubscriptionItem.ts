@@ -46,11 +46,11 @@ export class CommerceSubscriptionItem {
     /**
      * The plan associated with this subscription item.
      */
-    readonly plan: CommercePlan,
+    readonly plan: CommercePlan | null | undefined,
     /**
      * The plan ID.
      */
-    readonly planId: string,
+    readonly planId: string | null | undefined,
     /**
      * Unix timestamp (milliseconds) of when the subscription item was created.
      */
