@@ -1,5 +1,17 @@
 # Change Log
 
+## 2.15.2
+
+### Patch Changes
+
+- Update jsdocs mentions of `@experimental` tag. ([#6651](https://github.com/clerk/javascript/pull/6651)) by [@panteliselef](https://github.com/panteliselef)
+
+- Updated dependencies [[`13d08c8`](https://github.com/clerk/javascript/commit/13d08c89745d7cf29068b0cd8873de11f6140d76), [`41e0a41`](https://github.com/clerk/javascript/commit/41e0a4190b33dd2c4bdc0d536bbe83fcf99af9b0), [`1aa9e9f`](https://github.com/clerk/javascript/commit/1aa9e9f10c051319e9ff4b1a0ecd71507bd6a6aa), [`d6c7bbb`](https://github.com/clerk/javascript/commit/d6c7bbba23f38c0b3ca7edebb53028a05c7b38e6)]:
+  - @clerk/clerk-js@5.95.0
+  - @clerk/shared@3.26.1
+  - @clerk/clerk-react@5.48.1
+  - @clerk/types@4.88.0
+
 ## 2.15.1
 
 ### Patch Changes
